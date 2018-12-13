@@ -37,9 +37,9 @@ app.config(['$routeProvider', function ($routeProvider) {
    .when("/gallery", {templateUrl: "partials/gallery.html", controller: "PageCtrl"})
    .when("/join", {templateUrl: "partials/join.html", controller: "PageCtrl"})
     .when("/team", {templateUrl: "partials/team.html", controller: "PageCtrl"})
-    .when("/accomplish", {templateUrl: "partials/accomplish.html", controller: "PageCtrl"})
+    .when("/accomplish", {templateUrl: "partials/acheivement.html", controller: "PageCtrl"})
 
-    .when("/partner", {templateUrl: "partials/partner.html", controller: "PageCtrl"})
+    .when("/partner", {templateUrl: "partials/partners.html", controller: "PageCtrl"})
     .when("/vision", {templateUrl: "partials/vision.html", controller: "PageCtrl"})
     .when("/news", {templateUrl: "partials/news.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
